@@ -12,7 +12,7 @@ Now you have your test running but you have to keep switching to your terminal t
 
 Assuming you have nodemon and mocha+Growl setup and your tests are in the ```test``` directory this command keeps running your tests and notifies you if they pass or fail:
 
-```
+```sh
 nodemon -e js,json,handlebars node_modules/mocha/bin/mocha test/ --recursive --growl --reporter spec
 ```
 
