@@ -1,5 +1,7 @@
 # Testing Node.js apps like you mean it
 
+[Csaba Palfi](https://csabapalfi.github.io), Aug 2014
+
 I'm now working mostly with Node.js and really happy with the development setup we have. In this post I tried to collect how we do some of our testing.
 
 ## instant test feedback
@@ -71,3 +73,5 @@ expect(
 ```
 
 And we're now testing a complete service in isolation from interaction with dependencies to template rendering. Of course this doesn't replace functional testing with WebDriver but certainly can make functional tests simpler and let them focus on the right things.
+
+![](https://ga-beacon.appspot.com/UA-29212656-1/node-testing-tips?pixel)
